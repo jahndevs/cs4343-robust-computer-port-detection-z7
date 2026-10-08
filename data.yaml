@@ -1,0 +1,7 @@
+# Ultralytics dataset config. No `path:` key, so paths resolve relative to this file.
+train: prepared/images/train
+val: prepared/images/val
+test: prepared/images/test
+
+nc: 6
+names: ["displayport", "ethernet", "hdmi", "usb-a", "usb-c", "vga"]

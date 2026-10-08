@@ -1,0 +1,61 @@
+{
+  "args": {
+    "root": "c:\\Users\\adam\\Downloads\\archive (2)",
+    "out": "None",
+    "size": "640",
+    "mode": "letterbox",
+    "split": "[0.8, 0.1, 0.1]",
+    "seed": "42",
+    "quality": "95",
+    "no_exif": "False",
+    "drop_empty": "False",
+    "preview": "0",
+    "workers": "None"
+  },
+  "images_per_split": {
+    "train": 1374,
+    "val": 172,
+    "test": 171
+  },
+  "empty_images_per_split": {
+    "train": 11,
+    "val": 1,
+    "test": 1
+  },
+  "boxes_per_split": {
+    "train": {
+      "usb-a": 1714,
+      "hdmi": 504,
+      "usb-c": 809,
+      "vga": 372,
+      "ethernet": 427,
+      "displayport": 180
+    },
+    "val": {
+      "usb-a": 235,
+      "usb-c": 97,
+      "vga": 46,
+      "ethernet": 75,
+      "hdmi": 72,
+      "displayport": 20
+    },
+    "test": {
+      "usb-a": 229,
+      "usb-c": 90,
+      "hdmi": 57,
+      "vga": 49,
+      "ethernet": 50,
+      "displayport": 32
+    }
+  },
+  "issues": [
+    "port_0004.txt:2 degenerate box dropped",
+    "port_0217.txt:2 box clipped to image bounds",
+    "port_0240.txt:1 box clipped to image bounds",
+    "port_0272.txt:2 box clipped to image bounds",
+    "um_port_473.txt:3 box clipped to image bounds",
+    "usb-b-small_jpg.rf.31cf90b90c7ad80a5e65dd18fbfa7edf.txt:1 box clipped to image bounds",
+    "usb-b-small_jpg.rf.47ef804226f29400274e236305e17e54.txt:1 box clipped to image bounds",
+    "2 boxes dropped for being < 2px after resize"
+  ]
+}

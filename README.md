@@ -1,1 +1,0 @@
-Final Project for CS4343: Deep Learning.
